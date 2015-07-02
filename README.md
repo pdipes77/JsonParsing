@@ -9,6 +9,9 @@ NSString *url =[NSString stringWithFormat:@"http://myurl.com/getData];
 
 
 //get the data here
+
+
+
 -(void)getReceiveData:(NSDictionary *)response_dictionary identifier:(NSString *)identifier
 {
   NSlog(@"the response dictionary is %@",response_dictionary);
